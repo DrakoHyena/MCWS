@@ -9,10 +9,10 @@ const prefix = "!"
 let dir = "MinecraftWS"
 //the directory (folder) for the data base DO NOT PUT A SLASH AT THE END OF THE STRING
 
-const webhook = new Discord.WebhookClient("863886013088923678", "9rUymhdd6ksA-5ovKsx5hcZ9FhXINcDrsOLHFKlo0Henyr14Z7mllvtY2PipPFY9wySI")
+const webhook = new Discord.WebhookClient("", "")
 //VIDEO ON HOW TO CHANGE WEB HOOK SETTINGS - https://www.youtube.com/watch?v=hcWoDfsGpq8&ab_channel=CedrickAlegroso
 
-const bottoken = "ODYzMzAzOTgxMDA5ODYyNjk3.YOk8fA.6YxfCw9l5bWHi1ROkY3dulCCemo"
+const bottoken = ""
 //the token for your discord bot
 
 const channelid = "863885982146101248"
