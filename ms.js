@@ -299,7 +299,7 @@ default: send(message.content.slice(prefix.length)); break;
       }
     }
     sendQueue.push(msg)  
-    let count = Math.min(100 - Object.keys(awaitedQueue).length, sendQueue.length)
+    let count = Math.min(10000000 - Object.keys(awaitedQueue).length, sendQueue.length)
     for (let i = 0; i < count; i++) {
       let command = sendQueue.shift()
       socket.send(JSON.stringify(command))
