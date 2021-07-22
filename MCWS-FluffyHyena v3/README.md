@@ -22,4 +22,4 @@ What is the purpose of custom functions? They let you transfer function between 
 If you need any help or want to add more to this contact **fluffy hyena#3238** if that account isnt valid contact **drako hyena#3238**
 
 # To-Do
-- done for now, might add more features if they catch my eye. Let the contacts provided know if you have any suggestions
+- https://trello.com/b/2fb4cDgp/mcws-progress
