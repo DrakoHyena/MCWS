@@ -210,9 +210,10 @@ if(cd[msg.body.properties.Sender][kitlist[i][0]] < time){
 cd[msg.body.properties.Sender][kitlist[i][0]] = kitlist[i][1][0] + time
 fs.writeFile(`${dir}/cooldown.json`, JSON.stringify(cd), (err) => {if (err) console.log(err)})
 for(let b = 1; b < kitlist[i][1].length; b++){
-  console.log(kitlist[i][1][b])
 send(`give @a[name="${msg.body.properties.Sender}",tag=${args[0]}] ${kitlist[i][1][b]}`)
 }
+send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§gReedemed successfully!§e If you didnt recive anything youre not able to claim that"}]}`)
+return;
 }else{
 if(cd[msg.body.properties.Sender][kitlist[i][0]]-time >= 31536000000){
 send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§cThat is still on cool down\n§o${Math.round((cd[msg.body.properties.Sender][kitlist[i][0]]-time)/31536000000)} years left"}]}`)
@@ -232,13 +233,9 @@ send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§cThat is st
 return;
 }
 }
-}else{
-i = kitlist.length + 1
-send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§c${args[0]} doest exist"}]}`)
-return;
 }
 }
-send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§gReedemed successfully!§e If you didnt recive anything youre not able to claim that"}]}`)
+send(`tellraw "${msg.body.properties.Sender}" {"rawtext":[{"text":"§cRedeem '${args[0]}' doest exist"}]}`)
   break;    
   case "code":
 if(!args[0]){
