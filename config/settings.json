@@ -1,0 +1,14 @@
+{
+    "prefix":"!",
+    "dir":"MinecraftWS",
+    "webhook":"new Discord.WebhookClient('see the readme file', 'and ms.js')",
+    "bottoken":"ODYzMzAzOTgxMDA5ODYyNjk3.YOk8fA.lIpiGcbhXYH8Q9hNKNAELm9bXX4",
+    "channelid":"863885982146101248",
+    "port":"8000",
+    "color":"#FFFFFF",
+    "color2":"§7",
+    "chatremove":3000,
+    "maxstrikes":5,
+    "mutetime":25000,
+    "addedtime":5000
+}
