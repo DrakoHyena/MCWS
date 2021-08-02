@@ -1,0 +1,17 @@
+{
+  "name": "mcws-fluffyhyena-v4",
+  "version": "1.0.0",
+  "description": "**FIRST OPEN SETTINGS.JSON IN THE CONFIG FOLDER AND CHANGE THE SETTINGS, MS.JS EXPLAINS WHAT EACH SETTINGS DOES** open a terminal inside of MCWS-FluffHyena and run *npm i discord.js ws uuid* then run *node ms.js* \r you might be good after this but if you arent look in the newly created folder and format all of the json files by typing {} inside them and runing the server again. \r You should be good after this! If you arent try running the server again and if it still doesnt start you probably messes something up",
+  "main": "ms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "uuid": "^8.3.2",
+    "ws": "^7.5.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "prefix":"!",
+    "dir":"MinecraftWS",
+    "webhook":"new Discord.WebhookClient('see ms.js for', 'instructions')",
+    "bottoken":"your token",
+    "channelid":"your channel id",
+    "port":"8000",
+    "color":"#FFFFFF",
+    "color2":"§7",
+    "chatremove":3000,
+    "maxstrikes":5,
+    "mutetime":25000,
+    "addedtime":5000,
+    "automessagetime":60000
+}
